@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: store
+  jwt:
+    secret: ${JWT_SECRET}
+    accessTokenExpiration: 900 #15 min
+    refreshTokenExpiration: 604800 #7 days
+  profiles:
+    active: dev
+stripe:
+  secret: ${STRIPE_API_SECRET}
+  webhookSecretKey: ${WEBHOOK_STRIPE_SECRET_KEY}
+
