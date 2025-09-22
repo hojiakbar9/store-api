@@ -1,6 +1,6 @@
 # 🛍️ Store API
 
-A full-featured RESTful backend for an online store, built with Spring Boot. This project includes user authentication (JWT), product management, shopping cart functionality, order processing, and Stripe integration for secure payments.
+A full-featured REST-ful backend for an online store, built with Spring Boot. This project includes user authentication (JWT), product management, shopping cart functionality, order processing, and Stripe integration for secure payments.
 
 ---
 
@@ -44,9 +44,9 @@ This is a Maven project. Run the app using:
 ```
 On Windows:
 ```bash
-mvnw.cmd spring-boot:run
+.\mvnw.cmd spring-boot:run
 ```
-Access the app at:
+Access the app at (recommended to use Postman for testing the endpoints):
 ````bash
 http://localhost:8080
 ````
