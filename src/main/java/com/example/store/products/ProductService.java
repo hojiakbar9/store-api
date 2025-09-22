@@ -21,7 +21,7 @@ public class ProductService {
         } else {
             products = productRepository.findAllWithCategory();
         }
-
+        products.forEach(product -> System.out.println(product.getCategory()));
         return products.stream().map(productMapper::toDto).toList();
     }
 
