@@ -9,8 +9,8 @@ A full-featured RESTful backend for an online store, built with Spring Boot. Thi
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/hojiakbar9/spring-boot-store.git
-cd spring-boot-store
+git clone https://github.com/hojiakbar9/store-api.git
+cd store-api
 ```
 ### 2. Configure Environment Variables
 Rename the `.env.example` file to `.env` and fill in required values:
