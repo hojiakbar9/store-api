@@ -20,7 +20,7 @@ Generate a secure key using
 ```bash
 openssl rand -base64 32
 ```
-Or go to [Generate Random](generate-random.org), click Strings > Generate Random, and generate a 256-bit token.
+Or go to [Generate Random](https://generate-random.org), click Strings > Generate Random, and generate a 256-bit token.
 
 #### 💳 `STRIPE_API_SECRET`
 
